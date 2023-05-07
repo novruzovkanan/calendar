@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    
+    
+    
+}
+
+.main{
+    width: 450px;
+    height: 520px;
+    margin: 0 auto;
+}
+.container{
+    width: 100%;
+    height: 120px;
+    
+    background-color: rgb(11, 151, 151);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.upper{
+    color: white;
+    text-align: center; 
+}
+
+.qara{
+    background-color: black;
+    width: 100%;
+    height: 400px;
+}
+.weekdays{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 10px;
+}
+.days{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px;
+}
+.days div{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6px;
+    
+}
+.dey{
+    margin: 10px;
+}
+.dey:hover{
+    background-color: white;
+    color: black;
+    border: 3px solid white;
+}
